@@ -66,9 +66,4 @@ public class QuickSortTest {
         System.out.println("Sorted list: " + sorted);
     }
 
-    private Boolean between0and9(int pivot) {
-        if (pivot >= left && pivot <= 9) return true;
-        return false;
-    }
-
 }
